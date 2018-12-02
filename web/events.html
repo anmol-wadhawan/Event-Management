@@ -1,0 +1,138 @@
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+body{
+        background: black;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.zones_i{
+      width: 20%;
+      float: left;
+      position: relative;
+      height: 100%;
+    }
+    .zones_i img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .zones_p{
+      position: absolute;
+      left: 0px;
+      width: 40px;
+      background: rgb(0,0,0,0.9);
+      top: 0px;
+      margin: 0px;  
+      text-transform: uppercase;
+      padding: 10px 10px;
+      z-index: 9999;
+      word-break: break-all;
+      color: white;
+    }
+    .zones_i p{
+        float: left;
+        width: 100%;
+        font-size: 20px;
+        color: black;
+    }
+    .navbar-brand img{
+        height: 100%;       
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        left: -200px;
+        object-fit: cover;
+        padding: 0px;
+    }
+    .navbar-brand{
+        height: 100%;       
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        left: -200px;
+        object-fit: cover;
+        padding: 0px;
+    }
+    .rythmratz{
+        position: relative;
+    top: -59px;
+    /* margin-left: 95px; */
+    float: right;
+    margin-right: 24px;
+    }
+</style>
+</head>
+<body>
+<h2 class></h2>
+<p></p>
+<div class="col-lg-12 zones_d" style="padding:0px;">
+        <div>
+          <h3 class="zones_p">Zones</h3>
+        </div>
+        
+        <div class="zones_i" style="margin: 0px; bottom: 0px;">
+             <img src="carnival.jpg" alt="img21">
+             <div class ="rythmratz">
+              <button onclick="window.location.href='registration.html'" style ="border-radius: 3px;border: none;font-size: 1em;padding: 10px;background: linear-gradient(#e61111, #751a11);">RYTHMARTZ</button>
+             </div>      
+             
+        </div>
+  <div class="zones_i" style="margin: 0px; top: 0px;">
+             <img src="abhivyakti.jpg" alt="img21">
+             <div>
+              <p>abhivyakti</p>
+            </div>
+               <div class ="rythmratz">
+              <button  onclick="window.location.href='registration.html'" style ="border-radius:3px; top:-64px;position: relative;border: none;font-size: 1em;padding: 10px;background: linear-gradient(#e61111, #751a11);">ABHVYAKTI</button>
+             </div>
+        </div>
+  <div class="zones_i" style="margin: 0px; bottom: 0px;">
+             <img src="symphony.jpg" alt="img21">
+             <div>
+              <p>symphony</p>              
+             </div>          
+              <div class ="rythmratz">
+              <button onclick="registration.html"style ="border-radius: 3px;top: -64px; position: relative;border: none;font-size: 1em;padding: 10px;background: linear-gradient(#e61111, #751a11);">SYMPHONY</button>
+             </div>
+        </div>
+        
+  <div class="zones_i" style="margin: 0px; top: 0px;">
+             <img src="game_warp.jpg" alt="img21">
+             <div>
+              <p>game warp</p>
+            </div>
+              <div class ="rythmratz">
+              <button onclick="window.location.href='registration.html'" style ="border-radius:3px;top: -64px;position: relative;border: none;font-size: 1em;padding: 10px;background: linear-gradient(#e61111, #751a11);">GAME WARP</button>
+             </div>
+        </div>
+ 
+        <div class="zones_i" style="margin: 0px; bottom: 0px;">
+             <img src="music.png" alt="img21">
+             <div>
+              <p>fun fiesta</p>              
+             </div>      
+            <div class ="rythmratz">
+              <button onclick="window.location.href='registration.html'" style ="border-radius: 3px;    top: -64px;
+    position: relative;border: none;font-size: 1em;padding: 10px;background: linear-gradient(#e61111, #751a11);">FUN FIESTA</button>
+             </div> 
+        </div>
+      </div>
+
+
+</body>
+</html>
+
